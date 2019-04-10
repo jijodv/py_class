@@ -10,7 +10,7 @@ for x in list:
 print "First Min Number - ", f_min
 
 for y in list:
-    if y > s_min and y < f_min:
+    if y < s_min and y > f_min :
         s_min = y
 
 print "Second Min - ", s_min
